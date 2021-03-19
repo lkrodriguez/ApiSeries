@@ -11,20 +11,6 @@ class indexController{
     }
 
 
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
 
 ?>

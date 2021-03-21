@@ -1,0 +1,17 @@
+$mostrarpels=json_decode($mostrarpelJSON,true)['2'];
+
+        print_r($mostrarpels['genres']);
+
+        llamar genero
+
+        '.$movie['image'].' parte de cod para llamar las img
+
+        <img src="assets/img/pepe.png" class="img-responsive"  width="50" height="50" > COMO LLAMAR IMG DE MANERA LOCAL
+
+        w185 tamaño de img
+
+        https://image.freepik.com/foto-gratis/hrc-tigre-siberiano-2-jpg_21253111.jpg
+
+        https://i.pinimg.com/280x280_RS/5e/eb/9d/5eeb9d819342430dba2e833c1d4c254b.jpg
+        
+        https://tinypng.com/images/social/website.jpg

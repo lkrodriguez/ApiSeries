@@ -10,6 +10,16 @@ class indexController{
         require_once('view/all/footer.php');
     }
 
+    public function movies (){
+
+        require_once('view/all/header.php');
+        require_once('view/movies.php');
+        require_once('view/all/footer.php');
+    }
+
+
+
+
 
 }
 

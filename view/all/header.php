@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Series & Peliculas</title>
     <link rel="stylesheet" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" >
     <link rel="shortcut icon" href="http://tostaocafeypan.com/wp-content/uploads/2016/09/favicon.png"/>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+   <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
    
 
-</head>
 
 <body  style="overflow-x: hidden;" >
 
@@ -30,16 +30,23 @@
 
     }
 
-    img.pequeña{
-  width: 50px; height: 50px;
-  background-color: teal;
-  color: red;
+.avatar {
+    width: 100%;
+    margin: 13%;
+    width: 65px;
+    border-radius: 50px 50% 50% 50%;
+    height: 65px;
+    background: #448ed3 ;
+    position: relative;
+    bottom: 50px;
 }
-img.mediana{
-  width: 100px; height: 100px;
-}
-img.grande{
-  width: 200px; height: 200px;
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30%;
+    border:2px solid #fff;
+    display: block;
 }
 
    

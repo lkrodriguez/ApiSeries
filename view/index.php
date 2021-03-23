@@ -1,13 +1,9 @@
-  
+
     <?php
         $mostrarpelURL = 'http://api.tvmaze.com/shows';
         $mostrarpelJSON= file_get_contents($mostrarpelURL);
         $mostrarpels=json_decode($mostrarpelJSON,true);
 
-
-        $imgURL = 'http://api.tvmaze.com/shows/1/images';
-        $imgJSON= file_get_contents($imgURL);
-        $imgs=json_decode($imgJSON,true);
 
 
        //print_r($mostrarpels);
@@ -23,28 +19,37 @@
 
         <!--llama datos-->
     <?php
+    $medio=0;
 
     foreach ($mostrarpels  as $movie) {
-        echo ' <a href="movies.php?id='.$movie['id'].'"> 
-                <img class="avatar "  src="http://api.tvmaze.com/shows/1/images">              
+        echo ' <a href="index.php?id='.$movie['id'].'"> 
+                <img   src="'.$movie['image']['medium'].'">              
                   <h1>'.$movie['name'].'</h1>
-                  <h1>'.$movie['language'].'</h1> 
-                  <h4>'.$movie['summary'].'</h4>
+                  <h1>Rating '.$movie['rating']['average'].'</h1>
+                  <h4>Resumen '.$movie['summary'].'</h4>
                </a>          
 
         ';        
     } 
 
-    ?>
+        ?>
         
-    </div>   
+
+
+ <div>
+   <div>
+     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="<?php $movie['image']['medium']?>" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
 </div>
-
-
-
-  
-    
-
-    
-
-
+   </div>
+ </div>

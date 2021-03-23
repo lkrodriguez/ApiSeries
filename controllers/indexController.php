@@ -10,10 +10,17 @@ class indexController{
         require_once('view/all/footer.php');
     }
 
-    public function movies (){
+    public function accion (){
 
         require_once('view/all/header.php');
-        require_once('view/movies.php');
+        require_once('view/accion.php');
+        require_once('view/all/footer.php');
+    }
+
+    public function misterio (){
+
+        require_once('view/all/header.php');
+        require_once('view/misterio.php');
         require_once('view/all/footer.php');
     }
 

@@ -267,3 +267,15 @@ CARRUSEL FUNCIONAL
 
 
 FIN DE CARRUSEL
+
+  <pre> llamar img
+    <?php
+        $mostrarpelURL = 'http://api.tvmaze.com/shows';
+        $mostrarpelJSON= file_get_contents($mostrarpelURL);
+        $mostrarpels=json_decode($mostrarpelJSON,true)['3'];
+
+
+
+       print_r($mostrarpels['image']['medium']);
+
+    ?>

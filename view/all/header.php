@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Series & Peliculas</title>
+    <title>Series &</title>
     <link rel="stylesheet" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" >
     <link rel="shortcut icon" href="http://tostaocafeypan.com/wp-content/uploads/2016/09/favicon.png"/>
     
    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
 
    
 
@@ -29,26 +32,13 @@
         border-radius: 50%;
 
     }
+    .swiper-slide {
+  padding: 70px 0;
+  text-align: center;
 
-.avatar {
-    width: 100%;
-    margin: 13%;
-    width: 65px;
-    border-radius: 50px 50% 50% 50%;
-    height: 65px;
-    background: #448ed3 ;
-    position: relative;
-    bottom: 50px;
-}
-.avatar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 30%;
-    border:2px solid #fff;
-    display: block;
-}
+  overflow: auto;
 
+   }
    
 </style>
 
@@ -67,10 +57,10 @@
             <nav class="navbar navbar-default;" style="background-color: white;">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="?c=index&m=index" style="color: #e89b43; font-size: 14px">!BIENVENIDOS¡</a>
-                    <a class="navbar-brand" href="?c=index&m=nuestroCafe" style="color: #111; font-size: 14px" >GENERO</a>
-                    <a class="navbar-brand" href="?c=index&m=productos" style="color: #111; font-size: 14px">GENERO</a>
-                    <a class="navbar-brand" href="?c=index&m=nuestroCompromiso" style="color: #111; font-size: 14px">GENERO </a>
-                    <a class="navbar-brand" href="?c=index&m=visitanos" style="color: #111; font-size: 14px">GENERO</a>
+                    <a class="navbar-brand" href="?c=index&m=index" style="color: #111; font-size: 14px" >COMEDIA & DRAMA</a>
+                    <a class="navbar-brand" href="?c=index&m=accion" style="color: #111; font-size: 14px">ACCION & CIENCIA FICCION</a>
+                    <a class="navbar-brand" href="?c=index&m=misterio" style="color: #111; font-size: 14px">MISTERIO</a>
+                    
                 </div>
                 
                 </div>

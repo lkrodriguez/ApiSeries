@@ -25,6 +25,14 @@ class indexController{
     }
 
 
+    public function comedia (){
+
+        require_once('view/all/header.php');
+        require_once('view/comedia.php');
+        require_once('view/all/footer.php');
+    }
+
+
 
 
 

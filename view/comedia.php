@@ -1,25 +1,16 @@
-     
-     <?php
-          $misteriolURL = 'http://api.tvmaze.com/shows';
-          $misterioJSON= file_get_contents($misteriolURL);
-          $misterio=json_decode($misterioJSON,true);
-         //print_r($misterio);
+<?php
+     $comedialURL = 'http://api.tvmaze.com/shows';
+     $comediaJSON = file_get_contents($comedialURL);
+     $comedia = json_decode($comediaJSON, true);
+?>         
+ <div class="container">
+    <div class="row">
+      <table>
+        <h1>Series De Comedia</h1>
+        <tbody>
 
-      ?>              
-                                  
-                   
-  <style >
-    
-  </style>
-            
-
-<div class="container">
-  <div class="row">
-    <table>
-      <h2>Series De Acción</h2>
-      <tbody>
-        <?php foreach ($misterio as $movie) {
-                   if (in_array('Action', $movie['genres'])) {
+           <?php foreach ($comedia as $movie) {
+                   if (in_array('Comedy', $movie['genres'])) {
                        echo ' 
                     <tr>
                       <td><img src="' .
@@ -43,26 +34,10 @@
                      ');
                    }
                } ?>
-      </tbody>
-    </table>    
-  </div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-      
           
+        </tbody>
+      </table>
+      
+    </div>
 
-
-
-
-
-   
+  </div>

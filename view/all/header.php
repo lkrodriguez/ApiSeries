@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Series &</title>
+    <title>Series </title>
     <link rel="stylesheet" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" >
     <link rel="shortcut icon" href="http://tostaocafeypan.com/wp-content/uploads/2016/09/favicon.png"/>
     
@@ -15,9 +15,16 @@
    
 
 
-<body  style="overflow-x: hidden;" >
+<body   >
 
 <style type="text/css">
+
+    body{
+        background-color: #eee;
+         
+    }
+
+
     .con{
         position: absolute;
         right: 130px;
@@ -43,29 +50,27 @@
 </style>
 
 
-<div class="container-fluid" >
+<div class="container-fluid" style="background: black" >
     <div class="row">
-
         <div class="col-md-6" >
-            <nav class="navbar navbar-default;" style="background-color: white">
- 
-                <img src="https://media.aws.alkosto.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/2/32tl48_1_1.jpg" align="right" style="background-position: center; size: width: 100px; height: 100px;" >
-            </nav>
-
+            <nav class="navbar navbar-default;" > 
+                <img src="https://img.freepik.com/vector-gratis/tv-fondo-negro-pantalla-tv-realista-monitor-led-blanco_221648-134.jpg?size=626&ext=jpg" align="right" style="background-position: center; size: width: 100px; height: 100px;" >
+            </nav>        
         </div>
-        <div class="col-md-6">
-            <nav class="navbar navbar-default;" style="background-color: white;">
+        <div class="col-md-6" >
+            <nav class="navbar navbar-default;" >
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="?c=index&m=index" style="color: #e89b43; font-size: 14px">!BIENVENIDOS¡</a>
-                    <a class="navbar-brand" href="?c=index&m=index" style="color: #111; font-size: 14px" >COMEDIA & DRAMA</a>
-                    <a class="navbar-brand" href="?c=index&m=accion" style="color: #111; font-size: 14px">ACCION & CIENCIA FICCION</a>
-                    <a class="navbar-brand" href="?c=index&m=misterio" style="color: #111; font-size: 14px">MISTERIO</a>
-                    
+                    <a class="navbar-brand" href="?c=index&m=index" style="color: #e89b43; font-size: 14px">INICIO</a>
+                    <a class="navbar-brand" href="?c=index&m=comedia" style="color: #ffffff; font-size: 14px" >COMEDIA</a>
+                    <a class="navbar-brand" href="?c=index&m=accion" style="color: #ffffff; font-size: 14px">ACCION & CIENCIA FICCION</a>
+                    <a class="navbar-brand" href="?c=index&m=misterio" style="color: #ffffff; font-size: 14px">MISTERIO</a>
+                    <a class="navbar-brand" href="#" onclick=""window.location.href=window.location.href" style="color: #ffffff; font-size: 14px">ACTUALIZAS</a>
+                                           
                 </div>
-                
-                </div>
-            </nav>
+            </nav>                
         </div>
-
     </div>
+    </div>
+
+
 

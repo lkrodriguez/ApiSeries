@@ -279,3 +279,26 @@ FIN DE CARRUSEL
        print_r($mostrarpels['image']['medium']);
 
     ?>
+
+        //$img = $imgs['0']['image']['medium'];
+        
+
+
+
+       //print_r($img1);
+
+       
+
+//  foreach ($imgs  as $picture) {
+
+       // echo ' <img   src="'.$picture['image']['medium'].'"> ';
+//}
+
+<a href="index.php?id='.$movie['id'].'"> 
+                        <img   src="'.$movie['image']['medium'].'">
+                        <p>  
+                        '.$movie['name'].'
+                        Rating '.$movie['rating']['average'].'                   
+                        </p>            
+
+                       </a>          

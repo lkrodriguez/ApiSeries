@@ -1,47 +1,50 @@
-   
-   <?php
-        $misteriolURL = 'http://api.tvmaze.com/shows';
-        $misterioJSON= file_get_contents($misteriolURL);
-        $misterio=json_decode($misterioJSON,true);
-       //print_r($mostrarpels);
+     
+     <?php
+          $misteriolURL = 'http://api.tvmaze.com/shows';
+          $misterioJSON= file_get_contents($misteriolURL);
+          $misterio=json_decode($misterioJSON,true);
+         //print_r($misterio);
 
-    ?>              
-                                <!--llama datos-->
-                 
-<style >
-  
-</style>
-          
+      ?>              
+                                  
+                   
+  <style >
+    
+  </style>
+            
 
- 
 <div class="container">
-  <div class="panel">
-    <div class="recentrilizador">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" >
-            <h2>Series de Misterio & Mucho Más </h2>
-
-
-             <?php
-                  
-
-                  foreach ($misterio  as $movie) {
-                      echo ' 
-                      <a class="swiper-slide" href="misterio.php?id='.$movie['id'].'"> 
-                      <img   src="'.$movie['image']['medium'].'">
-                      <h5 class="card-title">'.$movie['name'].'</h5>
-                      <h5>'.$movie['genres']['2'].'</h5>  
-                      </a> <hr> ';   
-
-                  } 
-
-                  ?>
-          
-          </div>          
-        </div>        
-      </div>
-    </div>    
+  <div class="row">
+    <table>
+      <h2>Series de Misterio & Más</h2>
+      <tbody>
+        <?php foreach ($misterio as $movie) {
+                   if (in_array('Thriller', $movie['genres'])) {
+                       echo ' 
+                    <tr>
+                      <td><img src="' .
+                           $movie['image']['medium'] .
+                           '"></td>
+                      <td>
+                      <h2>' .
+                           $movie['name'] .
+                           '</h2><br> 
+                        <br>Rating ' .
+                           $movie['rating']['average'] .
+                           ' 
+                        <br><h6>' .
+                           ($genres =
+                               implode(', ', $movie['genres']) .
+                               '</h6>
+                        <br>' .
+                               $movie['summary'] .
+                               ' </td>
+                        </tr>
+                     ');
+                   }
+               } ?>
+      </tbody>
+    </table>    
   </div>  
 </div>
 
@@ -54,11 +57,12 @@
 
 
 
-    
-        
+
+      
+          
 
 
 
 
 
- 
+   

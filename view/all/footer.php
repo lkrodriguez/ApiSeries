@@ -57,7 +57,7 @@
             </div>
             <div class="col-md-6">
                 <br>
-                <center><p style="font-family: sans-serif;font-weight: lighter;font-size: 15px;color: #111;">EMAIL INFO@TOSTAOCAFEYPAN.COM</p></center>
+                <center><p style="font-family: sans-serif;font-weight: lighter;font-size: 15px;color: #111;">EMAIL INFO@SERIES.COM</p></center>
             </div>
         </div>
     </div>

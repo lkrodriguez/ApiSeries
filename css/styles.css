@@ -1,0 +1,66 @@
+/*
+index
+*/
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      body {
+        background-image:url('https://as.com/meristation/imagenes/2019/01/14/reportajes/1547421746_217660_1549359061_noticia_normal.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+      body:before {
+        content:'';
+        position: absolute;
+              top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.8);
+      }
+
+
+      body h1  {
+        font-size: 60px;
+        color: #fff;
+        position: relative
+      }
+
+      body h3  {
+        font-size: 40px;
+        color: #fff;
+        position: relative
+      }
+
+      
+
+      body nav a  {
+        font-size: 20px;
+        color: #fff;
+        position: relative
+      }
+
+      body main p  {
+        font-size: 20px;
+        color: #fff;
+        position: relative
+      }
+
+     
+
+
+  /*fin de estilos de index*/

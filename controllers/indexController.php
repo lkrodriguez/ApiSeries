@@ -32,6 +32,13 @@ class indexController{
         require_once('view/all/footer.php');
     }
 
+        public function principal (){
+
+        require_once('view/all/header.php');
+        require_once('view/principal.php');
+        require_once('view/all/footer.php');
+    }
+
 
 
 

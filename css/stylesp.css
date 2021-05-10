@@ -1,0 +1,75 @@
+/*
+ APGINA GRILLA
+*/
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      body h1  {
+        font-size: 60px;
+        color: #fff;
+        position: relative
+      }
+
+      body h3  {
+        font-size: 40px;
+        color: #fff;
+        position: relative
+      }
+
+      
+
+      body nav a  {
+        font-size: 20px;
+        color: #fff;
+        position: relative
+      }
+
+      body main p  {
+        font-size: 20px;
+        color: #fff;
+        position: relative
+      }
+
+      div .card {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px; height: 100px;
+        box-shadow: 10px 5px 5px black;
+      }
+
+      /*arichivo imgAleatorias*/
+
+      .imga {       
+         background-size: contain; 
+         height: 450px ; 
+      }
+
+      .link {
+        color: black; 
+        text-decoration:none 
+      }
+
+      .link:hover {
+        color: black; 
+        text-decoration: underline; 
+      }
+
+
+
+
+     
+
+
